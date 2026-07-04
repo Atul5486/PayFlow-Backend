@@ -1,0 +1,39 @@
+# Maven
+target/
+**/target/
+
+# Build artifacts
+build/
+dist/
+out/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs and crash dumps
+*.log
+hs_err_pid*.log
+replay_pid*.log
+
+# Local environment and secrets
+.env
+.env.*
+*.local
+
+# Spring Boot local overrides
+**/src/main/resources/application-local.properties
+**/src/main/resources/application-local.yml
+**/src/main/resources/application-dev.properties
+**/src/main/resources/application-dev.yml
+
+# Maven wrapper temp files
+.mvn/wrapper/maven-wrapper.jar
